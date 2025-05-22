@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABACO</title>
+  <link rel="shortcut icon" href="logo_abaco.png" type="logo abaco">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- menu de navegacion -->
+  <nav class="navbar navbar-expand-md bg-light py-3 fixed-top px-2">
+    <div class="container-fluid">
+      <img src="/static/logo_abaco.png" width="50px" alt="logo de abaco">
+      <!-- class="navbar-brand" href="#">ABACO</-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#carta-principal">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#Observatorio">Observatorios</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Proyectos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Reagro</a></li>
+              <li><a class="dropdown-item" href="#">Desayuno saludables</a></li>
+              <li><a class="dropdown-item" href="#">Alianza por la nutricion</a></li>
+              <li><a class="dropdown-item" href="#">Los pasises del hambre</a></li>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Formas de ayudar
+            </a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item " href="#">Desnutricion Cronica</a></li>
+              <li><a class="dropdown-item" href="/formulario.html">Donar</a></li>
+              <li><a class="dropdown-item" href="#">Hazte socio</a></li>
+              <li><a class="dropdown-item" href="#">Crea tu campaña</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#Enterate">Enterate</a>
+          </li>
+          <a href="/formulario.html" class="btn btn border-warning-subtle">DONA AHORA</a>
+
+      </div>
+      </ul>
+    </div>
+    </div>
+  </nav>
+
+  <!-- carrusel  -->
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/desayuno-saludables.jpeg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/diocesis.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/juagira.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- acoordeon -->
+  <div class="accordion" id="accordionPanelsStayOpenExample">
+    <div id="carta-principal" class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Nosotros somos...
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+        <div class="accordion-body">
+
+          <!-- cartas -->
+          <div class="card-group p-2 md-12">
+            <div class="card">
+              <img src="/static/donaton.jpeg" class="card-img-top rounded-circle " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Bienvenido a ABACO</h5>
+                <p class="card-text">​El Banco de Alimentos de Valledupar es una iniciativa solidaria de la Diócesis de
+                  Valledupar, creada en 2020 durante la pandemia.
+                <p> ¿Qué hacemos?
+                  Rescatamos alimentos próximos a vencerse y recibimos donaciones de alimentos y bienes. Estos productos
+                  los clasificamos, almacenamos y distribuimos de manera responsable,
+                  eficiente y equitativa a las familias necesitadas. Actualmente, entregamos aproximadamente 2.500
+                  mercados mensuales a familias del Cesar y el norte de La Guajira.</p>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/static/union.jpeg" class="card-img-top rounded-circle" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Misión</h5>
+                <p class="card-text">Nuestra misión es unir la academia, el sector privado y público con organizaciones
+                  sin ánimo de lucro que atienden a poblaciones vulnerables.
+                  Lo hacemos recolectando, seleccionando y distribuyendo alimentos, bienes y servicios, tanto donados
+                  como adquiridos. Generamos sinergias para entregarlos con responsabilidad y caridad,
+                  mejorando e impulsando un desarrollo integral sin generar una cultura de mendicidad.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/static/equipo.jpeg" class="card-img-top rounded-circle" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">vision</h5>
+                <p class="card-text">Con un equipo humano competente y comprometido, seremos en el 2025 una fundación
+                  líder en atención a población vulnerable. Brindaremos alimentos, nutrición,
+                  acompañamiento humano y social con responsabilidad y caridad, siendo un puente entre los que quieren
+                  servir y los que lo necesitan.</p>
+              </div>
+            </div>
+          </div>
+          <!-- fin de carta de abaco -->
+        </div>
+      </div>
+    </div>
+    <!-- segunda acoordeon -->
+    <div id="Observatorio" class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Observatorio
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="card mb-3">
+            <img src="/static/observatorio.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> OBSERVATORIO DE NUTRICIÓN INFANTIL</h5>
+              <p class="card-text">El Observatorio de Nutrición Infantil es la estructura técnica de la Alianza por la
+                Nutrición Infantil para orientar la toma de decisiones y el diseño de las intervenciones necesarias para
+                enfrentar la desnutrición infantil en Colombia.
+                Así mismo consolida los datos provenientes de fuentes oficiales de carácter nacional e internacional y
+                se constituye en herramienta de apoyo para la formulación de instrumentos de planificación territorial y
+                de política social basada en evidencia.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tercera acoordeon -->
+    <div id="Enterate" class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+          aria-controls="panelsStayOpen-collapseThree">
+          Enterate
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Conoce nuestras acciones</h5>
+              <p class="card-text">Conoce las acciones que llevamos a cabo, día a día, para combatir el desperdicio de
+                alimentos en todo el país y comparte la alegría de aquellos a quienes hemos atendido.</p>
+            </div>
+            <img src="/static/enterate.jpg" class="card-img-bottom" alt="...">
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Contacto</h2>
+        <p><strong>Correo:</strong> contacto@bancodealimentos.org</p>
+        <p><strong>Teléfono:</strong> +57 123 456 7890</p>
+        <p><strong>Dirección:</strong> Calle #123, Valledupar, Colombia</p>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
